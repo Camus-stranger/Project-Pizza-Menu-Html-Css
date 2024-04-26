@@ -1,0 +1,89 @@
+body{
+    background: rgb(142,0,0);
+background: linear-gradient(90deg, rgba(142,0,0,1) 0%, rgba(0,0,0,1) 100%);
+}
+h1,h2,p{
+    text-align: center;
+    color: white;
+
+
+}
+
+
+
+h1{
+    font-size: 50px;
+    background-color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+hr{
+    background-color: red;
+    border-color: red;
+    height: 2px;
+}
+
+#menu{
+    max-width: 500px;
+    padding: 10px;
+    margin: auto;
+    background-image: url(/assets/c308e97aca3d783a185248ff36cace2c.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.item p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    color: white;
+    background-color: red;
+
+}
+
+.item h2{
+    font-size: 25px;
+    background-color: black;
+}
+
+
+.flavour,.Spageti{
+    text-align: left;
+    width: 75%;
+}
+
+
+.price{
+    text-align: right;
+    width: 25%;
+}
+
+
+.bottom-line{
+    background-color: red;
+    border-color: red;
+    margin-top: 20px;
+}
+
+
+/*footer*/
+
+footer{
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+a{
+    color: white;
+    font-size: 20px;
+}
+
+a:active{
+    color: grey;
+}
+
+a:hover{
+    color:black;
+}
